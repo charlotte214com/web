@@ -49,18 +49,18 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">首頁</a></li>
+          <li><a href="index.html">首頁</a></li>
           <li><a href="about.html">個人簡歷</a></li>
-          <li><a href="resume.html">職業歷程</a></li>
+          <li><a href="resume.html">學業歷程</a></li>
           <li><a href="services.html">專業技能</a></li>
-       <li class="dropdown"><a href="#"><span>我的作品</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">平面作品</a></li>
-              <li class="dropdown"><a href="#"><span>攝影集📸</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+       <li class="dropdown"><a href="portfolio.html" class="active"><span>我的作品</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+             <ul>
+              <li><a href="portfolio-details.html">生活雜誌📽️</a></li>
+              <li class="dropdown"><a href="portfolio.html" class="active"><span>攝影集📸</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#">風景🌇</a></li>
-                  <li><a href="#">人物🙋‍♀️</a></li>
-                  <li><a href="#">美食🥐</a></li>
+                  <li><a href="portfolio.html">風景🌇</a></li>
+                  <li><a href="portfolio.html">聚焦👑</a></li>
+                  <li><a href="portfolio.html">美食🥐</a></li>
                 </ul>
               </li>
              <li><a href="https://music.youtube.com/watch?v=SiEUDZd2bto&si=y4GIB4ztZ34LLuRh">最近在聽🎧</a></li>
@@ -86,8 +86,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>我的攝影作品集</h2>
+        <p>鏡頭是我的筆，紀錄下生活裡最安靜的對白。✏️</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -95,100 +95,144 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Card</li>
-            <li data-filter=".filter-branding">Web</li>
+            <li data-filter="*" class="filter-active">所有</li>
+            <li data-filter=".filter-app">風景🌇</li>
+            <li data-filter=".filter-product">聚焦👑</li>
+            <li data-filter=".filter-branding">美食🥐</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-1.webp" class="img-fluid" alt="巴黎鐵塔">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>La Tour Eiffel</h4>
+                <p>Paris, France</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.webp" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.webp" class="img-fluid" alt="巴黎">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4> Sacré-Cœur</h4>
+                <p>Paris, France</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.webp" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.webp" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Dessert</h4>
+                <p>AuMyGod</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.webp" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.webp" class="img-fluid" alt="富士山">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Mount Fuji</h4>
+                <p>Tokyo, Japan</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.webp" title="App 5" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.webp" class="img-fluid" alt="人物特寫">
               <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Charlotte</h4>
+                <p>人物特寫</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.webp" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="更多照片" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Brunch</h4>
+                <p>Phase coffee roasters</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.webp" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.webp" class="img-fluid" alt="荷蘭">
+              <div class="portfolio-info">
+                <h4>Kloveniersburgwal</h4>
+                <p>Amsterdam, Netherlands</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.webp" title="App 5" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.webp" class="img-fluid" alt="尿尿小妹">
+              <div class="portfolio-info">
+                <h4>Jeanneke Pis</h4>
+                <p>雕像特寫</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.webp" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.webp" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Yakiniku</h4>
+                <p>燒肉中山</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.webp" title="Branding 3" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-10.webp" class="img-fluid" alt="凱旋門">
+              <div class="portfolio-info">
+                <h4>Arc de Triomphe</h4>
+                <p>Paris, France</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-10.webp" title="App 4" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-11.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>La Victoire de Samothrace</h4>
+                <p>雕像特寫</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-11.webp" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-12.webp" class="img-fluid" alt="羅浮宮">
+              <div class="portfolio-info">
+                <h4>Anges en adoration</h4>
+                <p>畫作特寫</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-12.webp" title="Product 4" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-13.webp" class="img-fluid" alt="烤飯糰">
+              <div class="portfolio-info">
+                <h4>Brunch</h4>
+                <p>吾庶</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-13.webp" title="Branding 4" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-14.webp" class="img-fluid" alt="豆花">
+              <div class="portfolio-info">
+                <h4>豆花</h4>
+                <p>沒有豆花</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-14.webp" title="Branding 5" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
