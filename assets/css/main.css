@@ -89,14 +89,14 @@ h6 {
 
 /* PHP Email Form Messages
 ------------------------------*/
-.php-email-form .error-message {
-  display: none;
-  background: #df1529;
-  color: #ffffff;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
+.php-email-form .error-message {display: none !important;
+  visibility: hidden !important; /* 隱藏元素 */
+  opacity: 0 !important;          /* 變成完全透明 */
+  height: 0 !important;           /* 高度歸零 */
+  padding: 0 !important;          /* 內邊距歸零（消滅紅色大區塊） */
+  margin: 0 !important;           /* 外邊距歸零 */
+  border: none !important;        /* 拔掉任何邊框 */
+  font-size: 0 !important;        /* 字體縮小到不見 */
 }
 
 .php-email-form .sent-message {
@@ -884,7 +884,7 @@ section,
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 120px;
+  width: 250px;
   border-radius: 50%;
   border: 4px solid var(--background-color);
   margin: 0 auto;
@@ -933,7 +933,7 @@ section,
 }
 
 .testimonials .testimonial-item p {
-  font-style: italic;
+  font-style: normal; font-family: "Source Han Serif TC";
   margin: 0 auto 15px auto;
 }
 
@@ -1104,7 +1104,7 @@ section,
 }
 
 .services .service-item.item-teal i {
-  color: #20c997;
+  color: #21c76b;
 }
 
 .services .service-item.item-teal:hover .icon i {
@@ -1112,11 +1112,11 @@ section,
 }
 
 .services .service-item.item-teal:hover .icon path {
-  fill: #20c997;
+  fill: #21c76b;
 }
 
 .services .service-item.item-red i {
-  color: #df1529;
+  color: #b335da;
 }
 
 .services .service-item.item-red:hover .icon i {
@@ -1124,11 +1124,11 @@ section,
 }
 
 .services .service-item.item-red:hover .icon path {
-  fill: #df1529;
+  fill: #b335da;
 }
 
 .services .service-item.item-indigo i {
-  color: #6610f2;
+  color: #fde618;
 }
 
 .services .service-item.item-indigo:hover .icon i {
@@ -1136,11 +1136,11 @@ section,
 }
 
 .services .service-item.item-indigo:hover .icon path {
-  fill: #6610f2;
+  fill: #fde618;
 }
 
 .services .service-item.item-pink i {
-  color: #f3268c;
+  color: #db699f;
 }
 
 .services .service-item.item-pink:hover .icon i {
@@ -1148,7 +1148,7 @@ section,
 }
 
 .services .service-item.item-pink:hover .icon path {
-  fill: #f3268c;
+  fill: #db699f;
 }
 
 /*--------------------------------------------------------------
